@@ -1,4 +1,5 @@
-[@bs.module] external input: ReasonReact.reactClass = "antd/lib/input";
+[@bs.module "antd/lib/input"]
+external input: ReasonReact.reactClass = "default";
 
 [%bs.raw {|require("antd/lib/input/style")|}];
 
